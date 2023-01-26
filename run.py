@@ -12,6 +12,8 @@ warnings.filterwarnings('ignore')
 import time
 from datetime import datetime
 import mysql.connector
+import pickle
+from pathlib import Path
 
 
 if __name__ == '__main__':
