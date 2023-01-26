@@ -1,0 +1,21 @@
+https://github.com/aljosa/pyinstaller-streamlit-plotly/blob/main/build.sh       ---->  tutorial
+
+pyinstaller --additional-hooks-dir=hooks/ --hidden-import cmath run.py       ----> sin logo
+
+pyinstaller --additional-hooks-dir=hooks/ --hidden-import cmath --icon=./psii.ico run.py     ------>con logo
+
+
+MO OLVIDAR QUE ESTO LOS MODULOS DE APP DEBEN DE ESTAR EN RUN COPIA Y PEGA
+
+
+
+pyinstaller --additional-hooks-dir=hooks/ --hidden-import cmath --icon=./psii.ico run.py
+
+
+
+
+pyinstaller --additional-hooks-dir=hooks/ --hidden-import cmath --windowed --icon=./psii.ico run.py ---- sin ventaa
+
+
+C:\Users\51925\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup -- para poner al iniciar secion window
+https://www.youtube.com/watch?v=mQletx74LgM -- video
