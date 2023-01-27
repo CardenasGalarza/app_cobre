@@ -14,7 +14,7 @@ pyinstaller --additional-hooks-dir=hooks/ --hidden-import cmath --icon=./psii.ic
 
 
 
-pyinstaller --additional-hooks-dir=hooks/ --hidden-import cmath --windowed --icon=./psii.ico run.py ---- sin ventaa
+pyinstaller --additional-hooks-dir=hooks/ --hidden-import cmath --windowed --onefile --icon=./psii.ico run.py ---- sin ventaa
 
 
 C:\Users\51925\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup -- para poner al iniciar secion window
